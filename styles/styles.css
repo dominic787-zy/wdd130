@@ -28,7 +28,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(blue / alpha);
+    border: 1px;
     padding: 1rem;
     color: #333;
     text-align: center;
