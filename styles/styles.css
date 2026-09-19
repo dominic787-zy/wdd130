@@ -21,10 +21,6 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
-}
-
 main {
     max-width: 840px;
 }
@@ -32,11 +28,11 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0green 0blue / 0.2alpha);
-    /* 1 */
+    border: 1px solid rgb(green blue / alpha);
     padding: 1rem;
     color: #333;
     text-align: centre;
+    background-color: blue;
 }
 
 aside img {
@@ -47,6 +43,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray
 }
 
 p {
