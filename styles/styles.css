@@ -28,10 +28,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(green blue / alpha);
+    border: 1px solid rgb(blue / alpha);
     padding: 1rem;
     color: #333;
-    text-align: centre;
+    text-align: center;
     background-color: blue;
 }
 
