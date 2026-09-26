@@ -87,6 +87,7 @@ header nav a:hover {
 }
 
 .hero h1 {
+    position: absolute;
     color: var(--accent2-color);
     font-size: 3rem;
     padding: 16px;
@@ -94,6 +95,7 @@ header nav a:hover {
 }
 
 .hero article {
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -101,7 +103,8 @@ header nav a:hover {
 }
 
 .hero article img {
-    width: 80px;
+    float: right;
+    width: 125px;
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
