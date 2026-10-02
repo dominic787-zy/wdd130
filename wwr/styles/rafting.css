@@ -165,11 +165,12 @@ section.adventures {
     border-radius: 4px;
 }
 
-.adventure-gallery figcaption {
-    margin-top: 6px;
-    font-size: 0.85rem;
-    color: var(--primary-color);
-    font-weight: bold;
+.adventure-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 16px 0;
 }
 
 .adventure-gallery figure {
@@ -190,7 +191,7 @@ section.adventures {
 .adventure-gallery figcaption {
     margin-top: 6px;
     font-size: 0.85rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
