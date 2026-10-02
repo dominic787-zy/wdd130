@@ -101,13 +101,17 @@ header nav a:hover {
 }
 
 .hero h1 {
+    position: absolute;
+    display: inline-block;
     color: var(--accent2-color);
     font-size: 3rem;
     padding: 16px;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    background-color: rgba(11, 57, 84, 0.7);
+    border-radius: 4px;
 }
 
 .hero article {
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -122,6 +126,7 @@ header nav a:hover {
 }
 
 .hero article img {
+    float: right;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -160,12 +165,11 @@ section.adventures {
     border-radius: 4px;
 }
 
-.adventure-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 12px;
-    margin: 16px 0;
+.adventure-gallery figcaption {
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .adventure-gallery figure {
